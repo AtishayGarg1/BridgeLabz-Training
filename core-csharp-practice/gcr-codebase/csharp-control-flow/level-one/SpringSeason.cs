@@ -12,7 +12,7 @@ class SpringSeason
 		{
 			Console.WriteLine("Its a Spring Season");
 		}
-				else
+		else
 		{
 			Console.WriteLine("Not a Spring Season");
 		}
