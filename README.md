@@ -1,288 +1,256 @@
-# 🚀 BridgeLabz – Core C# Training
+🚀 BridgeLabz – Core C# Training
 
-# 
 
-# This repository documents my day-wise learning journey and hands-on practice during the Core C# training program at BridgeLabz. It covers fundamental concepts, practical programming exercises, and real-world console-based implementations.
 
-# 
+Core C# Learning | Day-wise Progress | Hands-on Practice
 
-# 🗓️ Day 1: .NET \& C# Fundamentals
 
-# 📌 Concepts Covered
 
-# 
+This repository documents my day-wise learning journey and hands-on practice during the Core C# training program at BridgeLabz. It focuses on building strong fundamentals through theory and practical console-based implementations.
 
-# Learned the basics of the .NET Framework, including its architecture and execution process.
 
-# 
 
-# Understood the structure of C# programs, syntax rules, and the role of the Main() method.
+📅 Training Overview
 
-# 
 
-# 🛠️ Hands-on Practice
 
-# 
+Technology: Core C# (.NET)
 
-# Solved simple logical programs to become familiar with console input and output.
 
-# 
 
-# 🗓️ Day 2: Core C# Language Basics
+Mode: Hands-on, Console-based Programs
 
-# 📌 Concepts Covered
 
-# 
 
-# Studied C# data types and their practical usage.
+Organization: BridgeLabz
 
-# 
 
-# Learned various C# operators, including:
 
-# 
+🗓️ Day 1: .NET \& C# Fundamentals
 
-# Arithmetic operators
+🔹 Concepts Covered
 
-# 
 
-# Relational operators
 
-# 
+Introduction to the .NET Framework, its architecture, and execution process
 
-# Logical operators
 
-# 
 
-# Assignment operators
+Structure of a C# program, syntax rules, and the role of the Main() method
 
-# 
 
-# Unary operators
 
-# 
+🔧 Hands-on Practice
 
-# 🛠️ Hands-on Practice
 
-# 
 
-# Implemented basic C# programs using data types and operators.
+Solved simple logical programs
 
-# 
 
-# Practiced expressions to understand operator precedence.
 
-# 
+Practiced console input and output
 
-# 🗓️ Day 3: C# Operators, Access Modifiers \& Practical Programming
 
-# 📌 Concepts Covered
 
-# 
+🗓️ Day 2: Core C# Language Basics
 
-# Worked with arithmetic operations such as:
+🔹 Concepts Covered
 
-# 
 
-# Addition, subtraction, multiplication, division, and modulus
 
-# 
+C# data types and their practical usage
 
-# Understood type conversion and casting between numeric data types.
 
-# 
 
-# Learned access modifiers in C#, including:
+Operators in C#:
 
-# 
 
-# public
 
-# 
+Arithmetic
 
-# private
 
-# 
 
-# protected
+Relational
 
-# 
 
-# internal
 
-# 
+Logical
 
-# protected internal
 
-# 
 
-# private protected
+Assignment
 
-# 
 
-# Applied mathematical formulas and logical expressions in C# programs.
 
-# 
+Unary
 
-# 🛠️ Hands-on Practice
 
-# 
 
-# Wrote console-based C# programs to practice:
+🔧 Hands-on Practice
 
-# 
 
-# Calculations and conversions
 
-# 
+Implemented programs using data types and operators
 
-# Access modifier usage
 
-# 
 
-# Swapping values
+Practiced expressions to understand operator precedence
 
-# 
 
-# Basic logic-based problems
 
-# 
+🗓️ Day 3: C# Operators, Access Modifiers \& Practical Programming
 
-# Used user input and output extensively.
+🔹 Concepts Covered
 
-# 
 
-# 🗓️ Day 4: Control Flow Statements \& Iterative Programming
 
-# 📌 Concepts Covered
+Arithmetic operations:
 
-# 
 
-# Understanding decision-making statements in C#:
 
-# 
+Addition, subtraction, multiplication, division, modulus
 
-# if, if-else, else-if ladder
 
-# 
 
-# switch statements
+Type conversion and casting
 
-# 
 
-# Introduction to looping constructs:
 
-# 
+Access modifiers:
 
-# for loop
 
-# 
 
-# while loop
+public, private, protected, internal, protected internal, private protected
 
-# 
 
-# do-while loop
 
-# 
+Use of mathematical formulas and logical expressions
 
-# Usage of break and continue statements.
 
-# 
 
-# Logical flow control using conditions and loops.
+🔧 Hands-on Practice
 
-# 
 
-# 🛠️ Hands-on Practice
 
-# 
+Console-based programs for:
 
-# Implemented C# programs using:
 
-# 
 
-# Conditional logic for decision making
+Calculations and conversions
 
-# 
 
-# Loop-based problems such as counting, summation, and pattern-style logic
 
-# 
+Access modifier demonstrations
 
-# Practiced menu-driven console applications.
 
-# 
 
-# Strengthened understanding of iteration and program flow.
+Swapping values
 
-# 
 
-# 🗓️ Day 5: Arrays \& Structured Data Handling
 
-# 📌 Concepts Covered
+Logic-based problems using user input and output
 
-# 
 
-# Introduction to arrays in C# and their importance.
 
-# 
+🗓️ Day 4: Control Flow Statements \& Iterative Programming
 
-# Declaration, initialization, and traversal of arrays.
+🔹 Concepts Covered
 
-# 
 
-# Understanding single-dimensional arrays.
 
-# 
+Decision-making statements:
 
-# Performing operations on arrays such as:
 
-# 
 
-# Searching
+if, if-else, else-if ladder
 
-# 
 
-# Summation
 
-# 
+switch
 
-# Finding minimum and maximum values
 
-# 
 
-# Basics of working with user-defined data collections.
+Looping constructs:
 
-# 
 
-# 🛠️ Hands-on Practice
 
-# 
+for, while, do-while
 
-# Wrote C# programs to:
 
-# 
 
-# Store and process multiple values using arrays
+Use of break and continue
 
-# 
 
-# Perform calculations on array elements
 
-# 
+Logical flow control using conditions and loops
 
-# Display results using loops
 
-# 
 
-# Practiced real-world examples such as:
+🔧 Hands-on Practice
 
-# 
 
-# Salary calculations
 
-# 
+Conditional logic-based programs
 
-# Basic data analysis using arrays
+
+
+Loop-based problems (counting, summation, pattern logic)
+
+
+
+Menu-driven console applications
+
+
+
+🗓️ Day 5: Arrays \& Structured Data Handling
+
+🔹 Concepts Covered
+
+
+
+Arrays in C# and their importance
+
+
+
+Declaration, initialization, and traversal
+
+
+
+Single-dimensional arrays
+
+
+
+Array operations:
+
+
+
+Searching
+
+
+
+Summation
+
+
+
+Min/Max calculation
+
+
+
+Basics of structured data handling
+
+
+
+🔧 Hands-on Practice
+
+
+
+Programs to store and process multiple values
+
+
+
+Array-based calculations
+
+
+
+Real-world examples like salary calculations and basic data analysis
 
