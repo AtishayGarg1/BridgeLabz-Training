@@ -254,3 +254,215 @@ Array-based calculations
 
 Real-world examples like salary calculations and basic data analysis
 
+
+
+🗓️ Day 6: Methods \& Modular Programming
+
+🔹 Concepts Covered
+
+
+
+Importance of methods in C#
+
+
+
+Method declaration and definition
+
+
+
+Method calling and execution flow
+
+
+
+Types of methods:
+
+
+
+Methods with parameters
+
+
+
+Methods with return values
+
+
+
+Void methods
+
+
+
+Method overloading (basic understanding)
+
+
+
+Scope of variables (local vs instance)
+
+
+
+Using methods to improve code reusability and readability
+
+
+
+🔧 Hands-on Practice
+
+
+
+Programs broken into multiple methods for:
+
+
+
+Input handling
+
+
+
+Processing logic
+
+
+
+Output display
+
+
+
+Menu-driven applications using a single execution method
+
+
+
+Refactoring existing programs to be method-oriented
+
+
+
+Separating business logic from user interaction logic
+
+
+
+🧩 Methods Focus
+
+
+
+Calling only one execution method from Main()
+
+
+
+Using private methods for internal logic
+
+
+
+Using public methods as controlled entry points
+
+
+
+Writing clean, reusable, and testable methods
+
+
+
+Improving program structure using modular design
+
+
+
+🗓️ Day 7: Strings \& String Manipulation
+
+🔹 Concepts Covered
+
+
+
+Strings in C# and their immutability
+
+
+
+String indexing and traversal
+
+
+
+Common string operations:
+
+
+
+Length calculation
+
+
+
+Character comparison
+
+
+
+Case conversion
+
+
+
+String input handling from console
+
+
+
+Difference between string and StringBuilder
+
+
+
+Efficient string manipulation using loops and conditions
+
+
+
+🔧 Hands-on Practice
+
+
+
+Programs to:
+
+
+
+Count characters and words
+
+
+
+Reverse strings
+
+
+
+Remove extra spaces
+
+
+
+Format sentences
+
+
+
+Capitalize words and sentences
+
+
+
+Scenario-based problems like:
+
+
+
+Sentence formatter
+
+
+
+Text cleaner
+
+
+
+Basic text analysis tools
+
+
+
+🧩 Methods Focus
+
+
+
+Passing strings as method parameters
+
+
+
+Returning processed strings from methods
+
+
+
+Writing independent string-processing methods
+
+
+
+Combining multiple string methods in a controlled execution flow
+
+
+
+Avoiding direct logic inside Main()
+
