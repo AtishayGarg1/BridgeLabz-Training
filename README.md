@@ -466,3 +466,157 @@ Combining multiple string methods in a controlled execution flow
 
 Avoiding direct logic inside Main()
 
+
+
+🎯 Objective of Scenario-Based Programs
+
+
+
+Translate real-world problems into C# solutions
+
+
+
+Strengthen logical reasoning and conditional thinking
+
+
+
+Practice loops, arrays, strings, methods, and classes in context
+
+
+
+Develop clean, modular, and readable C# code
+
+
+
+🧩 Key Concepts Applied
+
+
+
+Conditional Statements (if, else, switch)
+
+
+
+Iteration (for, while, do-while)
+
+
+
+Arrays (1D and 2D)
+
+
+
+Strings and StringBuilder
+
+
+
+Methods and parameter passing
+
+
+
+Input validation and error handling
+
+
+
+Access modifiers and class interaction
+
+
+
+Console-based user interaction
+
+
+
+📌 Scenario Categories Covered
+
+1️⃣ Employee \& Payroll Scenarios
+
+
+
+Employee bonus calculation based on years of service
+
+
+
+Salary increment logic
+
+
+
+Total bonus, old salary, and new salary computation
+
+
+
+Validation of salary and service year inputs
+
+
+
+2️⃣ String Processing Scenarios
+
+
+
+Sentence formatting and normalization
+
+
+
+Removing extra spaces and punctuation handling
+
+
+
+Word extraction and length calculation
+
+
+
+Capitalization rules after punctuation
+
+
+
+3️⃣ Number-Based Logical Scenarios
+
+
+
+Armstrong number verification
+
+
+
+Palindrome number checking
+
+
+
+Digit counting in integers
+
+
+
+Sum of digits and number transformations
+
+
+
+4️⃣ User Interaction Scenarios
+
+
+
+Countdown programs (rocket launch simulation)
+
+
+
+Number guessing game
+
+
+
+Continuous input until a termination condition
+
+
+
+Menu-driven console applications
+
+
+
+5️⃣ Date \& Time Scenarios
+
+
+
+Time zone conversion using DateTimeOffset
+
+
+
+Date arithmetic (add/subtract days, months, years)
+
+
+
+Date comparison and formatting
+
