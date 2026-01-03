@@ -1,14 +1,10 @@
 🚀 BridgeLabz – Core C# Training
-
-
-
+---
 Core C# Learning | Day-wise Progress | Hands-on Practice
-
-
 
 This repository documents my day-wise learning journey and hands-on practice during the Core C# training program at BridgeLabz. It focuses on building strong fundamentals through theory and practical console-based implementations.
 
-
+---
 
 📅 Training Overview
 
