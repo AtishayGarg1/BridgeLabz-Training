@@ -84,7 +84,7 @@ namespace BridgeLabzTraining.EmployeeEx
 
         }
 
-
+        // UC-5 Calculate Month Wage
         public void CalculateMonthAttendance(IEmployeeDetails employee)
         {
             for(int i = 0; i < 30; i++)
@@ -92,6 +92,8 @@ namespace BridgeLabzTraining.EmployeeEx
                 CheckAttendance2(employee);
             }
         }
+
+        // Method to Check Working Days in a month
         public void CheckAttendance2(IEmployeeDetails employee)
         {
             Random rnd = new Random();

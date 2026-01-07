@@ -14,11 +14,13 @@ namespace BridgeLabzTraining.EmployeeEx
         private double EmployeeSalary;
         private int EmployeeWorkHours;
         private string EmployeeType;
+        private int EmployeeWorkingDays;
         public string EmployeeName1 { get => EmployeeName; set => EmployeeName = value; }
         public int EmployeeId1 { get => EmployeeId; set => EmployeeId = value; }
         public double EmployeeSalary1 { get => EmployeeSalary; set => EmployeeSalary = value; }
         public int EmployeeWorkHours1 { get => EmployeeWorkHours; set => EmployeeWorkHours = value; }
         public string EmployeeType1 { get => EmployeeType; set => EmployeeType = value; }
+        public int EmployeeWorkingDays1 { get => EmployeeWorkingDays; set => EmployeeWorkingDays = value; }
 
         public override string ToString()
         {
