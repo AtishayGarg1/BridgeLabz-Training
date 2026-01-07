@@ -13,5 +13,6 @@ namespace BridgeLabzTraining.EmployeeEx
         void GetEmployeeName(IEmployeeDetails employee,int i);
         void CheckAttendance(IEmployeeDetails employee);
         void GetDetails(IEmployeeDetails employee);
+        void CalculateWage(IEmployeeDetails employee);
     }
 }

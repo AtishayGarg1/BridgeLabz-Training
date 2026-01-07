@@ -10,6 +10,7 @@ namespace BridgeLabzTraining.EmployeeEx
     {
         private IEmployeeDetails Employee;
 
+        // Method to add employee 
         public IEmployeeDetails AddEmployee()
         {
             Employee = new EmployeeImpl();
@@ -18,8 +19,9 @@ namespace BridgeLabzTraining.EmployeeEx
             Employee.EmployeeName1 = Console.ReadLine();
             Console.WriteLine("Give Employee Id");
             Employee.EmployeeId1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Give Salary");
-            Employee.EmployeeSalary1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Give Work Hours");
+            Employee.EmployeeWorkHours1 = int.Parse(Console.ReadLine());
+            CalculateWage(Employee);
             return Employee;
         }
 
@@ -50,6 +52,11 @@ namespace BridgeLabzTraining.EmployeeEx
             }
         }
 
+        // UC-2 Calculate salary based on work hours
+        public void CalculateWage(IEmployeeDetails employee)
+        {
+            employee.EmployeeSalary1 = 100 * employee.EmployeeWorkHours1;
+        }
 
 
     }
