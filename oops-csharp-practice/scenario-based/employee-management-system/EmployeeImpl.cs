@@ -24,6 +24,10 @@ namespace BridgeLabzTraining.EmployeeEx
 
         public override string ToString()
         {
+            if(EmployeeType.Equals("Part Time"))
+            {
+                return "Name: " + EmployeeName + "\nID: " + EmployeeId + "\nEmployee Type: " + EmployeeType + "\nEmployee Salary: " + EmployeeSalary+"\nTotal Working Days: "+EmployeeWorkingDays+"\nTotal Working Hours: "+EmployeeWorkHours*EmployeeWorkingDays;
+            }
             return "Name: "+EmployeeName+"\nID: "+ EmployeeId+"\nEmployee Type: "+EmployeeType+ "\nEmployee Salary: "+ EmployeeSalary;
         }
     }

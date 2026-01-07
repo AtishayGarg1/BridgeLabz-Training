@@ -23,7 +23,6 @@ namespace BridgeLabzTraining.EmployeeEx
             return Employee;
         }
 
-
         // Method to get employee name
         public void GetEmployeeName(IEmployeeDetails employee,int i)
         {
@@ -79,7 +78,6 @@ namespace BridgeLabzTraining.EmployeeEx
                     CalculateMonthAttendance(Employee);
                     CalculateWage(Employee);
                     break;
-
             }
 
         }
@@ -89,10 +87,13 @@ namespace BridgeLabzTraining.EmployeeEx
         {
             for(int i = 0; i < 30; i++)
             {
+                if(!CheckAttendance3(employee))
+                {
+                    return;
+                }
                 CheckAttendance2(employee);
             }
         }
-
         // Method to Check Working Days in a month
         public void CheckAttendance2(IEmployeeDetails employee)
         {
@@ -104,6 +105,15 @@ namespace BridgeLabzTraining.EmployeeEx
             }
         }
 
-
+        // UC-6 Check Working Days in a month dont exceed 20 or work hours dont exceed 100
+        public bool CheckAttendance3(IEmployeeDetails employee)
+        {
+            if (employee.EmployeeWorkingDays1 > 19 || employee.EmployeeWorkingDays1 * employee.EmployeeWorkHours1 > 100)
+            {
+                employee.EmployeeWorkingDays1--;
+                return false;
+            }
+            return true;
+        }
     }
 }
