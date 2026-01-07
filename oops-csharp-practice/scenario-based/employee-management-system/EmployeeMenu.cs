@@ -15,7 +15,7 @@ namespace BridgeLabzTraining.EmployeeEx
             int count = 0;
             IEmployeeDetails[] employee = new EmployeeImpl[100];
             EmployeeUtil = new EmployeeUtilityImpl();
-            // Switch case for menu
+            // UC-4 Use Switch Case
             while(true)
             {
 

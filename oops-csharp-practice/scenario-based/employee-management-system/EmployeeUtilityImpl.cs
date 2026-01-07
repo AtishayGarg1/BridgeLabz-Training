@@ -43,6 +43,7 @@ namespace BridgeLabzTraining.EmployeeEx
             int random = rnd.Next(0, 2);
             if(random == 1)
             {
+                employee.EmployeeWorkingDays1++;
                 Console.WriteLine("Employee '"+employee.EmployeeName1+"' is Present");
             }
             else
@@ -54,7 +55,7 @@ namespace BridgeLabzTraining.EmployeeEx
         // UC-2 Calculate salary based on work hours
         public void CalculateWage(IEmployeeDetails employee)
         {
-            employee.EmployeeSalary1 = 100 * employee.EmployeeWorkHours1;
+            employee.EmployeeSalary1 = 100 * employee.EmployeeWorkHours1 * Employee.EmployeeWorkingDays1;
         }
 
         // UC-3 Part Type Employee And Wage
@@ -75,12 +76,32 @@ namespace BridgeLabzTraining.EmployeeEx
                     employee.EmployeeType1 = "Part Time";
                     Console.WriteLine("Give Work Hours");
                     Employee.EmployeeWorkHours1 = int.Parse(Console.ReadLine());
+                    CalculateMonthAttendance(Employee);
                     CalculateWage(Employee);
                     break;
 
             }
 
         }
+
+
+        public void CalculateMonthAttendance(IEmployeeDetails employee)
+        {
+            for(int i = 0; i < 30; i++)
+            {
+                CheckAttendance2(employee);
+            }
+        }
+        public void CheckAttendance2(IEmployeeDetails employee)
+        {
+            Random rnd = new Random();
+            int random = rnd.Next(0, 2);
+            if(random == 1)
+            {
+                employee.EmployeeWorkingDays1++;
+            }
+        }
+
 
     }
 }
