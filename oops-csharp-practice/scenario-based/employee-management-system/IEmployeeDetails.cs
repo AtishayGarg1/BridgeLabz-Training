@@ -13,6 +13,7 @@ namespace BridgeLabzTraining.EmployeeEx
         int EmployeeId1 { get; set; }
         double EmployeeSalary1 { get; set; }
         int EmployeeWorkHours1 {  get; set; }
+        string EmployeeType1 {  get; set; }
 
         string ToString();
     }

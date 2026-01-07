@@ -13,7 +13,7 @@ namespace BridgeLabzTraining.EmployeeEx
         {
             Console.WriteLine("\tWelcome to Employee Management System");
             int count = 0;
-            IEmployeeDetails[] employee = new EmployeeImpl[5];
+            IEmployeeDetails[] employee = new EmployeeImpl[100];
             EmployeeUtil = new EmployeeUtilityImpl();
             // Switch case for menu
             while(true)

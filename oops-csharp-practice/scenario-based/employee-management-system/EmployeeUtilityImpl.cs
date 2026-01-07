@@ -19,11 +19,10 @@ namespace BridgeLabzTraining.EmployeeEx
             Employee.EmployeeName1 = Console.ReadLine();
             Console.WriteLine("Give Employee Id");
             Employee.EmployeeId1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Give Work Hours");
-            Employee.EmployeeWorkHours1 = int.Parse(Console.ReadLine());
-            CalculateWage(Employee);
+            EmployeeType(Employee);
             return Employee;
         }
+
 
         // Method to get employee name
         public void GetEmployeeName(IEmployeeDetails employee,int i)
@@ -58,6 +57,30 @@ namespace BridgeLabzTraining.EmployeeEx
             employee.EmployeeSalary1 = 100 * employee.EmployeeWorkHours1;
         }
 
+        // UC-3 Part Type Employee And Wage
+        public void EmployeeType(IEmployeeDetails employee)
+        {
+            Console.WriteLine("Enter Employee Type");
+            Console.WriteLine("1. Full Time");
+            Console.WriteLine("2. Part Time");
+            int choice = int.Parse(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    employee.EmployeeType1 = "Full Time";
+                    Console.WriteLine("Enter salary");
+                    Employee.EmployeeSalary1 = int.Parse(Console.ReadLine());
+                    break;
+                case 2:
+                    employee.EmployeeType1 = "Part Time";
+                    Console.WriteLine("Give Work Hours");
+                    Employee.EmployeeWorkHours1 = int.Parse(Console.ReadLine());
+                    CalculateWage(Employee);
+                    break;
+
+            }
+
+        }
 
     }
 }
