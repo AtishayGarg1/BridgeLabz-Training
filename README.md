@@ -233,3 +233,28 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Inheritance-based programs
 - Real-world hierarchy modeling
 - Assignment: **Submission of Inheritance**
+
+---
+
+## 🗓️ Day 12: OOPS Best Practices, Abstraction & Polymorphism
+
+### 🔹 Concepts Covered
+- Encapsulation using private fields and public properties
+- Abstraction using abstract classes
+- Interfaces for contract-based design
+- Polymorphism through base class and interface references
+- Clean coding and naming conventions
+
+### 🔧 Hands-on Practice
+- Employee Management System
+- E-Commerce Platform
+- Vehicle Rental System
+- Banking System
+- Library Management System
+- Online Food Delivery System
+- Hospital Patient Management
+- Ride-Hailing Application
+
+### 🧠 Learning Outcome
+- Strengthened understanding of OOPS principles
+- Applied abstraction and polymorphism in real-world scenarios
