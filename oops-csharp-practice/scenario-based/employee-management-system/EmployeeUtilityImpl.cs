@@ -8,12 +8,12 @@ namespace BridgeLabzTraining.EmployeeEx
 {
     internal class EmployeeUtilityImpl : IEmployee
     {
-        private IEmployeeDetails Employee;
+        private Employee Employee;
 
         // Method to add employee 
-        public IEmployeeDetails AddEmployee()
+        public Employee AddEmployee()
         {
-            Employee = new EmployeeImpl();
+            Employee = new Employee();
             Console.WriteLine("Give Employee Details");
             Console.WriteLine("Give Employee Name");
             Employee.EmployeeName1 = Console.ReadLine();
@@ -24,19 +24,19 @@ namespace BridgeLabzTraining.EmployeeEx
         }
 
         // Method to get employee name
-        public void GetEmployeeName(IEmployeeDetails employee,int i)
+        public void GetEmployeeName(Employee employee,int i)
         {
             Console.WriteLine((i+1)+". "+employee.EmployeeName1);
         }
 
         //Method to get employee details
-        public void GetDetails(IEmployeeDetails employee)
+        public void GetDetails(Employee employee)
         {
             Console.WriteLine(employee.ToString());
         }
 
         // UC-1 Check Whether The Employee is present or absent
-        public void CheckAttendance(IEmployeeDetails employee)
+        public void CheckAttendance(Employee employee)
         {
             Random rnd = new Random();
             int random = rnd.Next(0, 2);
@@ -52,13 +52,13 @@ namespace BridgeLabzTraining.EmployeeEx
         }
 
         // UC-2 Calculate salary based on work hours
-        public void CalculateWage(IEmployeeDetails employee)
+        public void CalculateWage(Employee employee)
         {
             employee.EmployeeSalary1 = 100 * employee.EmployeeWorkHours1 * Employee.EmployeeWorkingDays1;
         }
 
         // UC-3 Part Type Employee And Wage
-        public void EmployeeType(IEmployeeDetails employee)
+        public void EmployeeType(Employee employee)
         {
             Console.WriteLine("Enter Employee Type");
             Console.WriteLine("1. Full Time");
@@ -83,7 +83,7 @@ namespace BridgeLabzTraining.EmployeeEx
         }
 
         // UC-5 Calculate Month Wage
-        public void CalculateMonthAttendance(IEmployeeDetails employee)
+        public void CalculateMonthAttendance(Employee employee)
         {
             for(int i = 0; i < 30; i++)
             {
@@ -95,7 +95,7 @@ namespace BridgeLabzTraining.EmployeeEx
             }
         }
         // Method to Check Working Days in a month
-        public void CheckAttendance2(IEmployeeDetails employee)
+        public void CheckAttendance2(Employee employee)
         {
             Random rnd = new Random();
             int random = rnd.Next(0, 2);
@@ -106,7 +106,7 @@ namespace BridgeLabzTraining.EmployeeEx
         }
 
         // UC-6 Check Working Days in a month dont exceed 20 or work hours dont exceed 100
-        public bool CheckAttendance3(IEmployeeDetails employee)
+        public bool CheckAttendance3(Employee employee)
         {
             if (employee.EmployeeWorkingDays1 > 19 || employee.EmployeeWorkingDays1 * employee.EmployeeWorkHours1 > 100)
             {

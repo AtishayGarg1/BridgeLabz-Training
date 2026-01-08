@@ -9,13 +9,13 @@ namespace BridgeLabzTraining.EmployeeEx
     internal interface IEmployee
     {
         // Interface to provide security
-        IEmployeeDetails AddEmployee();
-        void GetEmployeeName(IEmployeeDetails employee,int i);
-        void CheckAttendance(IEmployeeDetails employee);
-        void GetDetails(IEmployeeDetails employee);
-        void CalculateWage(IEmployeeDetails employee);
-        void EmployeeType(IEmployeeDetails employee);
-        void CalculateMonthAttendance(IEmployeeDetails employee);
-        bool CheckAttendance3(IEmployeeDetails employee);
+        Employee AddEmployee();
+        void GetEmployeeName(Employee employee,int i);
+        void CheckAttendance(Employee employee);
+        void GetDetails(Employee employee);
+        void CalculateWage(Employee employee);
+        void EmployeeType(Employee employee);
+        void CalculateMonthAttendance(Employee employee);
+        bool CheckAttendance3(Employee employee);
     }
 }

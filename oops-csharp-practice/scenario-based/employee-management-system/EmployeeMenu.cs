@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BridgeLabzTraining.polymorphism_abstraction.Employee_Management;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace BridgeLabzTraining.EmployeeEx
         {
             Console.WriteLine("\tWelcome to Employee Management System");
             int count = 0;
-            IEmployeeDetails[] employee = new EmployeeImpl[100];
+            Employee[] employee = new Employee[100];
             EmployeeUtil = new EmployeeUtilityImpl();
             // UC-4 Use Switch Case
             while(true)
@@ -29,7 +30,7 @@ namespace BridgeLabzTraining.EmployeeEx
                 switch (choice)
                 {
                     case 1:
-                        IEmployeeDetails emp = EmployeeUtil.AddEmployee();
+                        Employee emp = EmployeeUtil.AddEmployee();
                         employee[count++] = emp;
                         break;
                     case 2:

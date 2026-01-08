@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BridgeLabzTraining.EmployeeEx
 {
-    internal class EmployeeImpl : IEmployeeDetails
+    internal class Employee
     {
         // Encapsulated class 
         private string EmployeeName;
