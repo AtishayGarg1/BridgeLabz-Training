@@ -24,6 +24,14 @@ namespace BridgeLabzTraining.scenariobased.atmdispenser
             int amount1 = int.Parse(Console.ReadLine());
             aTMDispenser.Initialize(amount1, notesPresent1);
 
+            // Scenario 3 - FallBack Combo Display Without exact change
+            int[] notesPresent2 = new int[] {1, 2, 5, 10, 20, 50, 100, 200 };
+            Console.Write("Enter Amount: ");
+            int amount2 = int.Parse(Console.ReadLine());
+            aTMDispenser.Initialize(amount2, notesPresent2);
+
+
+
         }
     }
 }
