@@ -258,3 +258,61 @@ This repository documents my **day-wise learning journey and hands-on practice**
 ### 🧠 Learning Outcome
 - Strengthened understanding of OOPS principles
 - Applied abstraction and polymorphism in real-world scenarios
+
+---
+
+## 🗓️ Day 13: Linked List (Data Structures)
+
+### 🔹 Concepts Covered
+- Introduction to Linked Lists
+- Singly and Doubly Linked Lists
+- Node structure and traversal
+- Insertion and deletion operations
+
+### 🔧 Hands-on Practice
+- Creating and traversing linked lists
+- Insert and delete nodes at various positions
+- Real-world problems using linked lists
+
+### 🧠 Learning Outcome
+- Understood dynamic memory-based data structures
+- Implemented linked list operations in C#
+
+---
+
+## 🗓️ Day 14: Stack, Queue & HashMap
+
+### 🔹 Concepts Covered
+- Stack (LIFO) and Queue (FIFO) concepts
+- Stack operations: push, pop, peek
+- Queue operations: enqueue, dequeue
+- HashMap (Dictionary) fundamentals
+
+### 🔧 Hands-on Practice
+- Stack and queue implementations
+- Solving problems using stack and queue
+- Key-value storage using HashMap (Dictionary)
+
+### 🧠 Learning Outcome
+- Applied linear and non-linear data structures
+- Used HashMap for efficient data access
+
+---
+
+## 🗓️ Day 15: Sorting Algorithms
+
+### 🔹 Concepts Covered
+- Importance of sorting
+- Time and space complexity basics
+- Comparison-based sorting algorithms
+
+### 🔧 Hands-on Practice
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Sorting real-world datasets
+
+### 🧠 Learning Outcome
+- Understood sorting techniques and use cases
+- Implemented sorting algorithms in C#
+
