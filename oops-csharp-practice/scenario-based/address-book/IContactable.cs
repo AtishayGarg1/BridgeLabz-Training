@@ -10,5 +10,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
     {
         void AddContact();
 
+        void EditDetails(string name);
     }
 }

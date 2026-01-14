@@ -9,13 +9,15 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
     // Menu class to show to user
     internal class ContactMenu
     {
-        IContactable ContactObj = new ContactUtiityImpl();
+        private IContactable ContactObj;
         public void Menu()
         {
+            ContactObj = new ContactUtiityImpl();
             while (true)
             {
                 Console.WriteLine("Welcome to Address Book");
                 Console.WriteLine("1. Add Contact");
+                Console.WriteLine("2. Edit Contact Using Name");
                 Console.WriteLine("9. Exit");
                 int choice;
                 int.TryParse(Console.ReadLine(), out choice);
@@ -24,8 +26,16 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                     case 1:
                         ContactObj.AddContact();
                         break;
+                    case 2:
+                        Console.WriteLine("Enter Name");
+                        string name = Console.ReadLine();
+                        ContactObj.EditDetails(name);
+                        break;
                     case 9:
                         return;
+                    default:
+                        Console.WriteLine("Invalid choice");
+                        break;
                 }
             }
         }
