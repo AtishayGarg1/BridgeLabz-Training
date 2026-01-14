@@ -31,7 +31,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         // Override ToString Method
         public override string? ToString()
         {
-            return $"Name: {FirstName} {LastName}\nAddress: {Address}\nCity: {City}\nState: {State}\nZIP: {ZIP}\nPhone Number: {PhoneNumber}\nEmail: {Email}";
+            return $"\n\nName: {FirstName} {LastName}\nAddress: {Address}\nCity: {City}\nState: {State}\nZIP: {ZIP}\nPhone Number: {PhoneNumber}\nEmail: {Email}";
         }
     }
 }

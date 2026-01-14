@@ -9,7 +9,8 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
     internal interface IContactable
     {
         void AddContact();
-
         void EditDetails(string name);
+        void DeleteContact(string name);
+        void DisplayDetails();
     }
 }
