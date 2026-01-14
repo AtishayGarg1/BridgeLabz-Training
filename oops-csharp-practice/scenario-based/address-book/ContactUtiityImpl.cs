@@ -11,11 +11,14 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         private int Capacity = 10;
         private ContactsInfo[] ContactsInfos;
         int count = 0;
+
+        // Constructor to Initialize size of Address Book
         public ContactUtiityImpl()
         {
             ContactsInfos = new ContactsInfo[Capacity];
         }
 
+        // Method to add Contact
         public void AddContact()
         {
             if(count >= Capacity)
@@ -43,5 +46,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         }
 
         
+
     }
 }

@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace BridgeLabzTraining.UCScenarioBased.AddressBook
 {
-    internal interface IContactable
+    internal class ContactMain
     {
-        void AddContact();
-
+        static void Main(string[] args)
+        {
+            ContactMenu ContactMenu = new ContactMenu();
+            ContactMenu.Menu(); 
+        }
     }
 }
