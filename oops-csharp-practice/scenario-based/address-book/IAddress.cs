@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace BridgeLabzTraining.UCScenarioBased.AddressBook
 {
-    internal class ContactMain
+    internal interface IAddress
     {
-        static void Main(string[] args)
-        {
-            ContactMenu ContactMenu = new ContactMenu();
-            ContactMenu.Run();
-        }
+        void CreateAddressBook();
+        AddressBook SelectAddressBook();
+        void DisplayAddressBooks();
+        void DisplayAllContacts();
     }
 }
