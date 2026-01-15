@@ -16,5 +16,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         void DisplayDetails();
         bool AlreadyExists(string firstName, string lastName);
         void SearchByStateOrCity();
+        void SortAlphabetically();
     }
 }

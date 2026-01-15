@@ -175,12 +175,12 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         // Method to check If a contact already exists in an addressbook
         public bool AlreadyExists(string firstName, string lastName)
         {
-            for(int i = 0; i < addressBook.Contacts.Length; i++)
+            for(int i = 0; i < addressBook.Count; i++)
             {
                 ContactsInfo contactInfo = addressBook.Contacts[i];
                 if(contactInfo == null)
                 {
-                    return false;
+                    continue;
                 }
                 if(contactInfo.FirstName1.Equals(firstName) && contactInfo.LastName1.Equals(lastName))
                 {
@@ -189,6 +189,34 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             }
             return false;
         }
+
+        // Method To sort Contacts Alphabetically
+        public void SortAlphabetically()
+        {
+            for (int i = 0; i < addressBook.Count - 1; i++)
+            {
+                for (int j = i + 1; j < addressBook.Count; j++)
+                {
+                    ContactsInfo c1 = addressBook.Contacts[i];
+                    ContactsInfo c2 = addressBook.Contacts[j];
+
+                    if (c1 == null || c2 == null)
+                        continue;
+
+                    string s1 = c1.FirstName1 + c1.LastName1;
+                    string s2 = c2.FirstName1 + c2.LastName1;
+
+                    if (string.Compare(s1, s2, StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        ContactsInfo temp = addressBook.Contacts[i];
+                        addressBook.Contacts[i] = addressBook.Contacts[j];
+                        addressBook.Contacts[j] = temp;
+                    }
+                }
+            }
+            DisplayDetails();
+        }
+
 
 
     }

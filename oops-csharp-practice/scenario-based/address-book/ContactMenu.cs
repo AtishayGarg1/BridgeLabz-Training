@@ -121,6 +121,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact Using Name");
                 Console.WriteLine("3. Delete A Contact");
+                Console.WriteLine("4. Sort Contacts Alphabetically");
                 Console.WriteLine("8. Display All Contacts");
                 Console.WriteLine("9. Exit");
 
@@ -141,6 +142,9 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                         Console.WriteLine("Enter Name to Delete Contact");
                         string nameDelete = Console.ReadLine();
                         ContactObj.DeleteContact(nameDelete);
+                        break;
+                    case 4:
+                        ContactObj.SortAlphabetically();
                         break;
                     case 8:
                         ContactObj.DisplayDetails();
