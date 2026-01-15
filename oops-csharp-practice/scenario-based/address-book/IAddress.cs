@@ -16,6 +16,8 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         void SearchByStateOrCity();
         void ViewPersonsByCity();
         void ViewPersonsByState();
+        void CountPersonsByCity();
+        void CountPersonsByState();
 
 
     }

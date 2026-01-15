@@ -190,26 +190,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             return false;
         }
 
-        // Method to Search Contacts By City Or State Name
-        public void SearchByStateOrCity()
-        {
-            Console.WriteLine("Enter State Or City");
-            string name = Console.ReadLine();
-
-            if (addressBook.Count == 0)
-            {
-                Console.WriteLine("No contacts available");
-                return;
-            }
-
-            for (int i = 0; i < addressBook.Count; i++)
-            {
-                if(addressBook.Contacts[i].City1.Equals(name) || addressBook.Contacts[i].State1.Equals(name))
-                {
-                    Console.WriteLine(addressBook.Contacts[i].ToString());
-                }
-            }
-        }
 
     }
 }

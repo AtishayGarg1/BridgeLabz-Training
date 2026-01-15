@@ -205,6 +205,95 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             }
         }
 
+        // Method to Count Person By City
+        public void CountPersonsByCity()
+        {
+            string[] cityNames = new string[50];
+            int[] cityCounts = new int[50];
+            int citySize = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = AddressBooks[i];
+
+                for (int j = 0; j < book.Count; j++)
+                {
+                    string city = book.Contacts[j].City1;
+                    int index = -1;
+
+                    for (int k = 0; k < citySize; k++)
+                    {
+                        if (cityNames[k].Equals(city))
+                        {
+                            index = k;
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        cityNames[citySize] = city;
+                        cityCounts[citySize] = 1;
+                        citySize++;
+                    }
+                    else
+                    {
+                        cityCounts[index]++;
+                    }
+                }
+            }
+
+            Console.WriteLine("\nPerson Count by City:");
+            for (int i = 0; i < citySize; i++)
+            {
+                Console.WriteLine($"{cityNames[i]} : {cityCounts[i]}");
+            }
+        }
+
+        // Method to Count Person By State
+        public void CountPersonsByState()
+        {
+            string[] stateNames = new string[50];
+            int[] stateCounts = new int[50];
+            int stateSize = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = AddressBooks[i];
+
+                for (int j = 0; j < book.Count; j++)
+                {
+                    string state = book.Contacts[j].State1;
+                    int index = -1;
+
+                    for (int k = 0; k < stateSize; k++)
+                    {
+                        if (stateNames[k].Equals(state))
+                        {
+                            index = k;
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        stateNames[stateSize] = state;
+                        stateCounts[stateSize] = 1;
+                        stateSize++;
+                    }
+                    else
+                    {
+                        stateCounts[index]++;
+                    }
+                }
+            }
+
+            Console.WriteLine("\nPerson Count by State:");
+            for (int i = 0; i < stateSize; i++)
+            {
+                Console.WriteLine($"{stateNames[i]} : {stateCounts[i]}");
+            }
+        }
 
 
 
