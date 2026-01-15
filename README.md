@@ -316,3 +316,42 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Understood sorting techniques and use cases
 - Implemented sorting algorithms in C#
 
+---
+
+## 🗓️ Day 16: Searching Algorithms & I/O Concepts
+
+### 🔹 Concepts Covered
+- Linear Search
+- Binary Search
+- StringBuilder 
+
+### 🔧 Hands-on Practice
+- Implemented Linear and Binary Search
+- Compared search techniques on sorted and unsorted data
+- Worked with string mutability and basic file input streams
+- Assignment: **Submission of Linear and Binary Search**
+
+### 🧠 Learning Outcome
+- Understood searching techniques and their use cases
+- Gained exposure to string handling and basic I/O operations
+
+---
+
+## 🗓️ Day 17: Algorithm Runtime Analysis & Big-O Notation
+
+### 🔹 Concepts Covered
+- Algorithm efficiency and performance analysis
+- Time complexity and space complexity
+- Big-O notation
+- General algorithm best practices
+
+### 🔧 Hands-on Practice
+- Analyzed runtime of searching and sorting algorithms
+- Compared algorithm performance using Big-O notation
+- Optimized logic for better time and space efficiency
+- Assignment: **Submission of Algorithm's Runtime Analysis & Big-O**
+
+### 🧠 Learning Outcome
+- Developed understanding of algorithm optimization
+- Learned to evaluate and compare algorithm performance
+
