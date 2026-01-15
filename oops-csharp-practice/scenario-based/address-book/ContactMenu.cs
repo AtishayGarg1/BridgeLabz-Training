@@ -42,6 +42,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             }
         }
 
+        // Address Book Menu
         public void AddressMenu()
         {
             while (true)
@@ -50,6 +51,9 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 Console.WriteLine("1. Add Address Book");
                 Console.WriteLine("2. Display Address Books");
                 Console.WriteLine("3. Display All Contacts");
+                Console.WriteLine("4. Search Contacts By City Or State Name");
+                Console.WriteLine("5. View Persons By City");
+                Console.WriteLine("6. View Persons By State");
                 Console.WriteLine("9. Exit");
 
                 int choice;
@@ -66,6 +70,9 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                     case 3:
                         AddressObj.DisplayAllContacts();
                         break;
+                    case 4:
+                        AddressObj.SearchByStateOrCity();
+                        break;
                     case 9:
                         return;
                     default:
@@ -75,6 +82,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             }
         }
 
+        // Contact Menu
         public void ConMenu()
         {
 
@@ -99,6 +107,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact Using Name");
                 Console.WriteLine("3. Delete A Contact");
+                Console.WriteLine("4. Search Contacts By City Or State");
                 Console.WriteLine("8. Display All Contacts");
                 Console.WriteLine("9. Exit");
 
@@ -119,6 +128,9 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                         Console.WriteLine("Enter Name to Delete Contact");
                         string nameDelete = Console.ReadLine();
                         ContactObj.DeleteContact(nameDelete);
+                        break;
+                    case 4:
+                        ContactObj.SearchByStateOrCity();
                         break;
                     case 8:
                         ContactObj.DisplayDetails();

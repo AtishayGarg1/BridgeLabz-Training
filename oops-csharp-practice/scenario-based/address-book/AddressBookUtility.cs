@@ -57,7 +57,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             return null;
         }
 
-
+        // Method to Display Address Books
         public void DisplayAddressBooks()
         {
             for (int i = 0; i < count; i++)
@@ -66,6 +66,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             }
         }
 
+        // Method to Display All Contacts
         public void DisplayAllContacts()
         {
             for (int i = 0; i < count; i++)
@@ -79,6 +80,134 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 }
             }
         }
+
+        // Method to Search Contacts by City Or State Accross All Address Books
+        public void SearchByStateOrCity()
+        {
+            Console.WriteLine("Enter State Or City");
+            string name = Console.ReadLine();
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine($"\n{i + 1}. Address Book: {AddressBooks[i].Name}");
+                Console.WriteLine("-----------------------");
+
+                for (int j = 0; j < AddressBooks[i].Count; j++)
+                {
+                    if(AddressBooks[i].Contacts[j].State1.Equals(name) || AddressBooks[i].Contacts[j].City1.Equals(name))
+                    Console.WriteLine(AddressBooks[i].Contacts[j].ToString());
+                }
+            }
+        }
+
+        // Display Person Contact by City Name
+        void ViewPersonByCity()
+        {
+            string[] cityNames = new string[50];
+            ContactsInfo[][] cityContacts = new ContactsInfo[50][];
+            int[] cityCounts = new int[50];
+            int citySize = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = AddressBooks[i];
+
+                for (int j = 0; j < book.Count; j++)
+                {
+                    ContactsInfo contact = book.Contacts[j];
+                    string city = contact.City1;
+
+                    int index = -1;
+                    for (int k = 0; k < citySize; k++)
+                    {
+                        if (cityNames[k].Equals(city))
+                        {
+                            index = k;
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        cityNames[citySize] = city;
+                        cityContacts[citySize] = new ContactsInfo[20];
+                        cityContacts[citySize][0] = contact;
+                        cityCounts[citySize] = 1;
+                        citySize++;
+                    }
+                    else
+                    {
+                        cityContacts[index][cityCounts[index]++] = contact;
+                    }
+                }
+            }
+
+            for (int i = 0; i < citySize; i++)
+            {
+                Console.WriteLine($"\nCity: {cityNames[i]}");
+                Console.WriteLine("------------------");
+                for (int j = 0; j < cityCounts[i]; j++)
+                {
+                    Console.WriteLine(cityContacts[i][j].ToString());
+                }
+            }
+        }
+
+        // Display Person Contact by StateName
+        public void ViewPersonsByState()
+        {
+            string[] stateNames = new string[50];
+            ContactsInfo[][] stateContacts = new ContactsInfo[50][];
+            int[] stateCounts = new int[50];
+            int stateSize = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = AddressBooks[i];
+
+                for (int j = 0; j < book.Count; j++)
+                {
+                    ContactsInfo contact = book.Contacts[j];
+                    string state = contact.State1;
+
+                    int index = -1;
+                    for (int k = 0; k < stateSize; k++)
+                    {
+                        if (stateNames[k].Equals(state))
+                        {
+                            index = k;
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        stateNames[stateSize] = state;
+                        stateContacts[stateSize] = new ContactsInfo[20];
+                        stateContacts[stateSize][0] = contact;
+                        stateCounts[stateSize] = 1;
+                        stateSize++;
+                    }
+                    else
+                    {
+                        stateContacts[index][stateCounts[index]++] = contact;
+                    }
+                }
+            }
+
+            for (int i = 0; i < stateSize; i++)
+            {
+                Console.WriteLine($"\nState: {stateNames[i]}");
+                Console.WriteLine("------------------");
+                for (int j = 0; j < stateCounts[i]; j++)
+                {
+                    Console.WriteLine(stateContacts[i][j].ToString());
+                }
+            }
+        }
+
+
+
+
 
     }
 }

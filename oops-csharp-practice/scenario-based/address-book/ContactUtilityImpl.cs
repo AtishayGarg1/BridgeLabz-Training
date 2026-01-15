@@ -64,7 +64,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             Console.WriteLine("Contact added successfully");
         }
 
-        // Edit Contact
+        // Edit Contact Details
         public void EditDetails(string name)
         {
             StringBuilder sb = new StringBuilder();
@@ -144,7 +144,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
 
             for (int i = 0; i < addressBook.Count; i++)
             {
-                Console.WriteLine(addressBook.Contacts[i]);
+                Console.WriteLine(addressBook.Contacts[i].ToString());
             }
         }
 
@@ -172,6 +172,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             Console.WriteLine("Contact not found");
         }
 
+        // Method to check If a contact already exists in an addressbook
         public bool AlreadyExists(string firstName, string lastName)
         {
             for(int i = 0; i < addressBook.Contacts.Length; i++)
@@ -187,6 +188,27 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 }
             }
             return false;
+        }
+
+        // Method to Search Contacts By City Or State Name
+        public void SearchByStateOrCity()
+        {
+            Console.WriteLine("Enter State Or City");
+            string name = Console.ReadLine();
+
+            if (addressBook.Count == 0)
+            {
+                Console.WriteLine("No contacts available");
+                return;
+            }
+
+            for (int i = 0; i < addressBook.Count; i++)
+            {
+                if(addressBook.Contacts[i].City1.Equals(name) || addressBook.Contacts[i].State1.Equals(name))
+                {
+                    Console.WriteLine(addressBook.Contacts[i].ToString());
+                }
+            }
         }
 
     }

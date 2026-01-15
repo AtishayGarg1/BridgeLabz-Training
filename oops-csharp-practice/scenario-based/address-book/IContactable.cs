@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace BridgeLabzTraining.UCScenarioBased.AddressBook
 {
+    // Interface to Provide Abstraction
+
     internal interface IContactable
     {
         void AddContact();
@@ -13,5 +15,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         void DeleteContact(string name);
         void DisplayDetails();
         bool AlreadyExists(string firstName, string lastName);
+        void SearchByStateOrCity();
     }
 }
