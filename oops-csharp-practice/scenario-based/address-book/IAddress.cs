@@ -12,5 +12,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         AddressBook SelectAddressBook();
         void DisplayAddressBooks();
         void DisplayAllContacts();
+        
     }
 }

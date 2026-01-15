@@ -12,5 +12,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         void EditDetails(string name);
         void DeleteContact(string name);
         void DisplayDetails();
+        bool AlreadyExists(string firstName, string lastName);
     }
 }

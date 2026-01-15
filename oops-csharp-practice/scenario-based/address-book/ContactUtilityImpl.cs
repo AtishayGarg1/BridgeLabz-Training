@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
     {
         private AddressBook addressBook;
 
-
+        // Used to select an addresbook
         public void SetAddressBook(AddressBook addressBook)
         {
             this.addressBook = addressBook;
@@ -25,13 +26,20 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                 return;
             }
 
-            ContactsInfo contact = new ContactsInfo();
 
+            ContactsInfo contact = new ContactsInfo();
+            
             Console.Write("Enter First Name: ");
             contact.FirstName1 = Console.ReadLine();
 
             Console.Write("Enter Last Name: ");
             contact.LastName1 = Console.ReadLine();
+
+            if(AlreadyExists(contact.FirstName1, contact.LastName1))
+            {
+                Console.WriteLine("Contact Already exists");
+                return;
+            }
 
             Console.Write("Enter Address: ");
             contact.Address1 = Console.ReadLine();
@@ -64,9 +72,9 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
             for (int i = 0; i < addressBook.Count; i++)
             {
                 sb.Clear();
-                sb.Append(addressBook.Contacts[i].FirstName1)
-                  .Append(" ")
-                  .Append(addressBook.Contacts[i].LastName1);
+                sb.Append(addressBook.Contacts[i].FirstName1);
+                sb.Append(" ");
+                sb.Append(addressBook.Contacts[i].LastName1);
 
                 if (sb.ToString().Equals(name, StringComparison.OrdinalIgnoreCase))
                 {
@@ -163,5 +171,23 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
 
             Console.WriteLine("Contact not found");
         }
+
+        public bool AlreadyExists(string firstName, string lastName)
+        {
+            for(int i = 0; i < addressBook.Contacts.Length; i++)
+            {
+                ContactsInfo contactInfo = addressBook.Contacts[i];
+                if(contactInfo == null)
+                {
+                    return false;
+                }
+                if(contactInfo.FirstName1.Equals(firstName) && contactInfo.LastName1.Equals(lastName))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
     }
 }
