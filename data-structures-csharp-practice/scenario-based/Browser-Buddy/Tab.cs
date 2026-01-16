@@ -8,10 +8,7 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
 {
     internal class Tab
     {
-        public BrowserHistory History { get; } = new BrowserHistory();
-
-        public void Visit(string url) => History.Visit(url);
-        public void Back() => History.Back();
-        public void Forward() => History.Forward();
+        public BrowserHistory History = new BrowserHistory();
     }
+
 }

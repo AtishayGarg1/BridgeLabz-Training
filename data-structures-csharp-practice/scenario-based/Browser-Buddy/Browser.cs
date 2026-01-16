@@ -10,12 +10,12 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
     {
         private Tab[] openTabs;
         private int tabCount;
-        private Stack<Tab> closedTabs;
+        private TabStack closedTabs;
 
         public Browser(int maxTabs)
         {
             openTabs = new Tab[maxTabs];
-            closedTabs = new Stack<Tab>();
+            closedTabs = new TabStack(maxTabs);
             tabCount = 0;
         }
 
@@ -23,7 +23,7 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
         {
             if (tabCount == openTabs.Length)
             {
-                Console.WriteLine("Tab limit reached");
+                Console.WriteLine("Max tabs reached");
                 return null;
             }
 
@@ -50,21 +50,12 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
             Console.WriteLine("Tab closed");
         }
 
-        public Tab RestoreLastClosedTab()
+        public Tab RestoreTab()
         {
-            if (closedTabs.Count == 0)
-            {
-                Console.WriteLine("No tabs to restore");
-                return null;
-            }
-
-            if (tabCount == openTabs.Length)
-            {
-                Console.WriteLine("No space to restore tab");
-                return null;
-            }
-
             Tab tab = closedTabs.Pop();
+            if (tab == null || tabCount == openTabs.Length)
+                return null;
+
             openTabs[tabCount++] = tab;
             Console.WriteLine("Tab restored");
             return tab;

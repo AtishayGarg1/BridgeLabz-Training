@@ -49,7 +49,7 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
             Console.WriteLine($"Forward to: {current.Url}");
         }
 
-        public string CurrentPage()
+        public string GetCurrent()
         {
             return current == null ? "Empty Tab" : current.Url;
         }

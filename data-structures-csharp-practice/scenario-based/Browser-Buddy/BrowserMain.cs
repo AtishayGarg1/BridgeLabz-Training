@@ -13,15 +13,15 @@ namespace BridgeLabzTraining.scenariobased.BrowserBuddy
             Browser browser = new Browser(5);
 
             Tab tab1 = browser.OpenTab();
-            tab1.Visit("google.com");
-            tab1.Visit("github.com");
-            tab1.Back();
-            tab1.Forward();
+            tab1.History.Visit("google.com");
+            tab1.History.Visit("github.com");
+            tab1.History.Back();
+            tab1.History.Forward();
 
             browser.CloseTab(0);
 
-            Tab restored = browser.RestoreLastClosedTab();
-            Console.WriteLine("Current page: " + restored.History.CurrentPage());
+            Tab restored = browser.RestoreTab();
+            Console.WriteLine("Current Page: " + restored.History.GetCurrent());
         }
     }
 }
