@@ -15,7 +15,6 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         void DeleteContact(string name);
         void DisplayDetails();
         bool AlreadyExists(string firstName, string lastName);
-        void SearchByStateOrCity();
-        void SortAlphabetically();
+        void SortAlphabeticallyByName();
     }
 }

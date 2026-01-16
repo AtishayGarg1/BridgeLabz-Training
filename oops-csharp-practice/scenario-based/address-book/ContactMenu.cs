@@ -144,7 +144,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
                         ContactObj.DeleteContact(nameDelete);
                         break;
                     case 4:
-                        ContactObj.SortAlphabetically();
+                        ContactObj.SortAlphabeticallyByName();
                         break;
                     case 8:
                         ContactObj.DisplayDetails();

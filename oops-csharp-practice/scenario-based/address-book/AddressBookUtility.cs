@@ -100,7 +100,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         }
 
         // Display Person Contact by City Name
-        void ViewPersonByCity()
+        public void ViewPersonsByCity()
         {
             string[] cityNames = new string[50];
             ContactsInfo[][] cityContacts = new ContactsInfo[50][];

@@ -191,7 +191,7 @@ namespace BridgeLabzTraining.UCScenarioBased.AddressBook
         }
 
         // Method To sort Contacts Alphabetically
-        public void SortAlphabetically()
+        public void SortAlphabeticallyByName()
         {
             for (int i = 0; i < addressBook.Count - 1; i++)
             {
