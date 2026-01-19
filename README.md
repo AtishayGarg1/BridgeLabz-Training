@@ -14,7 +14,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 1: .NET & C# Fundamentals
+## 🗓️ Day 1 (18 Dec): .NET & C# Fundamentals
 
 ### 🔹 Concepts Covered
 - Introduction to the .NET Framework, its architecture, and execution process
@@ -26,7 +26,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 2: Core C# Language Basics
+## 🗓️ Day 2 (19 Dec): Core C# Language Basics
 
 ### 🔹 Concepts Covered
 - C# data types and their practical usage
@@ -43,7 +43,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 3: C# Operators, Access Modifiers & Practical Programming
+## 🗓️ Day 3 (22 Dec): C# Operators, Access Modifiers & Practical Programming
 
 ### 🔹 Concepts Covered
 - Arithmetic operations:
@@ -67,7 +67,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 4: Control Flow Statements & Iterative Programming
+## 🗓️ Day 4 (23 Dec): Control Flow Statements & Iterative Programming
 
 ### 🔹 Concepts Covered
 - Decision-making statements:
@@ -87,7 +87,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 5: Arrays & Structured Data Handling
+## 🗓️ Day 5 (29 Dec): Arrays & Structured Data Handling
 
 ### 🔹 Concepts Covered
 - Arrays in C# and their importance
@@ -106,7 +106,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 6: Methods & Modular Programming
+## 🗓️ Day 6 (31 Dec): Methods & Modular Programming
 
 ### 🔹 Concepts Covered
 - Importance of methods in C#
@@ -138,7 +138,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 7: Strings & String Manipulation
+## 🗓️ Day 7 (29 Dec): Strings & String Manipulation
 
 ### 🔹 Concepts Covered
 - Strings in C# and their immutability
@@ -172,7 +172,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 8: Classes & Objects (OOP Basics)
+## 🗓️ Day 8 (01 Jan): Classes & Objects (OOP Basics)
 
 ### 🔹 Concepts Covered
 - Object-Oriented Programming fundamentals
@@ -188,7 +188,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 9: Constructors, Instance vs Class Variables & Access Modifiers
+## 🗓️ Day 9 (30 Dec): Constructors, Instance vs Class Variables & Access Modifiers
 
 ### 🔹 Concepts Covered
 - Constructors:
@@ -206,7 +206,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 10: Keywords – this, static, sealed & is Operator
+## 🗓️ Day 10 (31 Dec): Keywords – this, static, sealed & is Operator
 
 ### 🔹 Concepts Covered
 - `this` keyword
@@ -221,7 +221,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 11: Inheritance & Code Reusability
+## 🗓️ Day 11 (02 Jan): Inheritance & Code Reusability
 
 ### 🔹 Concepts Covered
 - Inheritance in C#
@@ -236,7 +236,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 12: OOPS Best Practices, Abstraction & Polymorphism
+## 🗓️ Day 12 (05 Jan): OOPS Best Practices, Abstraction & Polymorphism
 
 ### 🔹 Concepts Covered
 - Encapsulation using private fields and public properties
@@ -261,7 +261,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 13: Linked List (Data Structures)
+## 🗓️ Day 13 (07 Jan): Linked List (Data Structures)
 
 ### 🔹 Concepts Covered
 - Introduction to Linked Lists
@@ -280,7 +280,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 14: Stack, Queue & HashMap
+## 🗓️ Day 14 (08 Jan): Stack, Queue & HashMap
 
 ### 🔹 Concepts Covered
 - Stack (LIFO) and Queue (FIFO) concepts
@@ -299,7 +299,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 15: Sorting Algorithms
+## 🗓️ Day 15 (09 Jan): Sorting Algorithms
 
 ### 🔹 Concepts Covered
 - Importance of sorting
@@ -318,7 +318,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 16: Searching Algorithms & I/O Concepts
+## 🗓️ Day 16 (12 Jan): Searching Algorithms & I/O Concepts
 
 ### 🔹 Concepts Covered
 - Linear Search
@@ -337,7 +337,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 17: Algorithm Runtime Analysis & Big-O Notation
+## 🗓️ Day 17 (13 Jan): Algorithm Runtime Analysis & Big-O Notation
 
 ### 🔹 Concepts Covered
 - Algorithm efficiency and performance analysis
@@ -355,3 +355,112 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Developed understanding of algorithm optimization
 - Learned to evaluate and compare algorithm performance
 
+---
+
+## 🗓️ Day 18 (14 Jan): Custom Data Structures & Strings 
+
+### 🔹 Concepts Covered
+- Custom data storage using arrays
+- String processing using `split()` and `contains()`
+- Exception handling with custom exceptions
+- Converting dynamic data to arrays manually
+
+### 🔧 Hands-on Practice
+- **BookBuddy – Digital Bookshelf App**
+  - Stored books using custom array-based structure
+  - Added, sorted, and searched books by title/author
+- **CinemaTime – Movie Schedule Manager**
+  - Managed movies and showtimes using parallel arrays
+  - Searched movies using keywords
+
+
+### 🧠 Learning Outcome
+- Implemented real-world applications without collections
+- Strengthened array-based data handling and exception logic
+
+---
+
+## 🗓️ Day 19 (15 Jan): Address Book System – Advanced Operations (Custom Logic)
+
+### 🔹 Concepts Covered
+- Custom search algorithms on object arrays
+- Sorting objects alphabetically using custom logic
+- Method overriding (`equals()`, `toString()`)
+- Duplicate detection without collection utilities
+
+### 🔧 Hands-on Practice
+- Prevent duplicate contacts using name comparison (UC5, UC6)
+- Search contacts by city or state using array traversal (UC7)
+- Count contacts by city or state using counters
+- Sort contacts alphabetically using custom sorting algorithm
+- Display formatted contact details in console
+
+### 🧠 Learning Outcome
+- Designed a scalable Address Book using pure custom logic
+- Strengthened fundamentals of data structures and OOPS
+---
+
+## 🗓️ Day 20 (16 Jan): Linked List & Queue (DSA + OOPS)
+
+### 🔹 Concepts Covered
+- Circular Linked List
+- Queue data structure
+- Node-based dynamic data handling
+- Overflow and underflow conditions
+
+### 🔧 Hands-on Practice
+- **TrafficManager – Roundabout Vehicle Flow**
+  - Managed vehicles using Linked List
+  - Controlled entry using Queue
+  - Added and removed vehicles dynamically
+  - Displayed current roundabout state at any time
+
+### 🧠 Learning Outcome
+- Applied linked lists and queues to real-world simulations
+- Strengthened understanding of dynamic data flow handling
+
+---
+
+## 🗓️ Day 21 (17 Jan): Sorting Algorithms – Bubble Sort
+
+### 🔹 Concepts Covered
+- Comparison-based sorting techniques
+- Performance considerations and optimization
+
+### 🔧 Hands-on Practice
+- **FlashDealz – Product Sorting by Discount**
+  - Sorted large product data
+  - Optimized sorting for fast average-case performance
+- **FitnessTracker – Daily Step Count Ranking**
+  - Ranked users
+  - Handled frequent updates and real-time re-sorting
+
+### 🧠 Learning Outcome
+- Understood when to choose Bubble Sort
+- Applied sorting algorithms based on real-world constraints
+
+---
+
+## 🗓️ Day 22 (19 Jan): Linked List, Stack & Map-Based Applications
+
+### 🔹 Concepts Covered
+- Singly Linked List
+- Stack for navigation tracking
+- Map-based data storage
+- Function-based evaluation logic
+- Null handling and edge cases
+
+### 🔧 Hands-on Practice
+- **ParcelTracker – Delivery Chain Management**
+  - Modeled parcel stages using Singly Linked List
+  - Forward tracking through delivery stages
+  - Added intermediate checkpoints dynamically
+  - Handled lost or missing parcels safely
+- **ExamProctor – Online Exam Review System**
+  - Tracked question navigation using Stack
+  - Stored answers using Map (questionId → answer)
+  - Calculated final score using evaluation functions
+
+### 🧠 Learning Outcome
+- Applied linked lists and stacks to real-world workflows
+- Combined data structures with functional logic effectively
