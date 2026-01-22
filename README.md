@@ -464,3 +464,23 @@ This repository documents my **day-wise learning journey and hands-on practice**
 ### 🧠 Learning Outcome
 - Applied linked lists and stacks to real-world workflows
 - Combined data structures with functional logic effectively
+
+---
+
+## 🗓️ Day 23 (20 Jan): Collections
+
+### 🔹 Concepts Covered
+- Collections Framework overview:
+  - Generic, Non-Generic, Concurrent, and Specialized collections
+  - Use cases and performance considerations
+- Linked List applications
+
+### 🔧 Hands-on Practice
+- **Aadhaar Number Sorting**
+  - Sorted 12-digit numbers
+  - Performed binary search post-sorting
+
+### 🧠 Learning Outcome
+- Strengthened understanding of sorting strategies
+- Learned when to choose specific sorting algorithms
+- Gained clarity on collection types and real-world usage
