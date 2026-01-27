@@ -484,3 +484,42 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Strengthened understanding of sorting strategies
 - Learned when to choose specific sorting algorithms
 - Gained clarity on collection types and real-world usage
+
+---
+
+## 🗓️ Day 24 (21 Jan): Streams, Sorting & Queue-Based Systems
+
+### 🔹 Concepts Covered
+- Merge Sort for large datasets
+- Queue-based processing
+- File handling using streams
+- Buffered, binary, memory, and piped streams
+- Serialization and exception handling
+
+### 🔧 Hands-on Practice
+- EduResults – Rank Sheet Generator (Merge Sort)
+- SmartCheckout – Supermarket Billing Queue
+- File read/write, large file processing, serialization tasks
+
+### 🧠 Learning Outcome
+- Applied streams and sorting to real-world systems
+- Improved efficiency and data handling skills
+
+---
+
+## 🗓️ Day 25 (22 Jan): Circular Linked List & Exception Handling
+
+### 🔹 Concepts Covered
+- Circular Linked List traversal and modification
+- Real-world exception handling patterns
+- Built-in and custom exceptions
+- Exception propagation and cleanup using `finally`
+
+### 🔧 Hands-on Practice
+- AmbulanceRoute – Emergency Patient Navigation
+- File, input, arithmetic, and array exception handling
+- Custom exceptions and bank transaction validation
+
+### 🧠 Learning Outcome
+- Applied exception handling to real-world scenarios
+- Strengthened reliability and error-handling skills in C#
