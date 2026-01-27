@@ -87,58 +87,27 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 5 (29 Dec): Arrays & Structured Data Handling
+## 🗓️ Day 5 (24 Dec): Programming Practices, Arrays & Mathematical Utilities
 
 ### 🔹 Concepts Covered
-- Arrays in C# and their importance
-- Declaration, initialization, and traversal
-- Single-dimensional arrays
-- Array operations:
-  - Searching
-  - Summation
-  - Min/Max calculation
-- Basics of structured data handling
+- Best programming practices in C#
+- Naming conventions and modular method design
+- Arrays and numeric computations
+- Use of Math library functions
 
 ### 🔧 Hands-on Practice
-- Programs to store and process multiple values
-- Array-based calculations
-- Real-world examples like salary calculations and basic data analysis
+- Sum of digits using arrays and random numbers
+- Number-based utility programs (prime, palindrome, Armstrong, etc.)
+- Mathematical problems using loops, arrays, and methods
+- Matrix operations and geometry-based calculations
+
+### 🧠 Learning Outcome
+- Improved problem-solving using structured methods
+- Strengthened logic building with arrays and math utilities
 
 ---
 
-## 🗓️ Day 6 (31 Dec): Methods & Modular Programming
-
-### 🔹 Concepts Covered
-- Importance of methods in C#
-- Method declaration and definition
-- Method calling and execution flow
-- Types of methods:
-  - Methods with parameters
-  - Methods with return values
-  - Void methods
-- Method overloading (basic understanding)
-- Scope of variables (local vs instance)
-- Using methods to improve code reusability and readability
-
-### 🔧 Hands-on Practice
-- Programs broken into multiple methods for:
-  - Input handling
-  - Processing logic
-  - Output display
-- Menu-driven applications using a single execution method
-- Refactoring existing programs to be method-oriented
-- Separating business logic from user interaction logic
-
-### 🧩 Methods Focus
-- Calling only one execution method from `Main()`
-- Using private methods for internal logic
-- Using public methods as controlled entry points
-- Writing clean, reusable, and testable methods
-- Improving program structure using modular design
-
----
-
-## 🗓️ Day 7 (29 Dec): Strings & String Manipulation
+## 🗓️ Day 6 (26 Dec): Strings & String Manipulation
 
 ### 🔹 Concepts Covered
 - Strings in C# and their immutability
@@ -172,23 +141,26 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 8 (01 Jan): Classes & Objects (OOP Basics)
+## 🗓️ Day 7 (29 Dec): Arrays & Structured Data Handling
 
 ### 🔹 Concepts Covered
-- Object-Oriented Programming fundamentals
-- Classes and objects
-- Fields and methods
-- Encapsulation basics
-- Object interaction
+- Arrays in C# and their importance
+- Declaration, initialization, and traversal
+- Single-dimensional arrays
+- Array operations:
+  - Searching
+  - Summation
+  - Min/Max calculation
+- Basics of structured data handling
 
 ### 🔧 Hands-on Practice
-- Class-based programs
-- Real-world entity modeling
-- Bank system and role-based object design
+- Programs to store and process multiple values
+- Array-based calculations
+- Real-world examples like salary calculations and basic data analysis
 
 ---
 
-## 🗓️ Day 9 (30 Dec): Constructors, Instance vs Class Variables & Access Modifiers
+## 🗓️ Day 8 (30 Dec): Constructors, Instance vs Class Variables & Access Modifiers
 
 ### 🔹 Concepts Covered
 - Constructors:
@@ -206,18 +178,51 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 10 (31 Dec): Keywords – this, static, sealed & is Operator
+## 🗓️ Day 9 (31 Dec): Methods & Modular Programming
 
 ### 🔹 Concepts Covered
-- `this` keyword
-- `static` members
-- `sealed` classes
-- `is` operator
+- Importance of methods in C#
+- Method declaration and definition
+- Method calling and execution flow
+- Types of methods:
+  - Methods with parameters
+  - Methods with return values
+  - Void methods
+- Method overloading (basic understanding)
+- Scope of variables (local vs instance)
+- Using methods to improve code reusability and readability
 
 ### 🔧 Hands-on Practice
-- Utility classes using static methods
-- Type checking programs
-- Controlled inheritance scenarios
+- Programs broken into multiple methods for:
+  - Input handling
+  - Processing logic
+  - Output display
+- Menu-driven applications using a single execution method
+- Refactoring existing programs to be method-oriented
+- Separating business logic from user interaction logic
+
+### 🧩 Methods Focus
+- Calling only one execution method from `Main()`
+- Using private methods for internal logic
+- Using public methods as controlled entry points
+- Writing clean, reusable, and testable methods
+- Improving program structure using modular design
+
+---
+
+## 🗓️ Day 10 (01 Jan): Classes & Objects (OOP Basics)
+
+### 🔹 Concepts Covered
+- Object-Oriented Programming fundamentals
+- Classes and objects
+- Fields and methods
+- Encapsulation basics
+- Object interaction
+
+### 🔧 Hands-on Practice
+- Class-based programs
+- Real-world entity modeling
+- Bank system and role-based object design
 
 ---
 
@@ -261,7 +266,25 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 13 (07 Jan): Linked List (Data Structures)
+## 🗓️ Day 13 (06 Jan): Arrays, Inheritance & Polymorphism
+
+### 🔹 Concepts Covered
+- Array-based data storage
+- Inheritance and interfaces
+- Polymorphism using interface checks
+- String filtering operations
+
+### 🔧 Hands-on Practice
+- Customer Service Call Log Manager
+- Bird Sanctuary System using inheritance and interfaces
+
+### 🧠 Learning Outcome
+- Applied OOPS concepts with arrays
+- Strengthened understanding of polymorphism and data filtering
+
+---
+
+## 🗓️ Day 14 (07 Jan): Linked List (Data Structures)
 
 ### 🔹 Concepts Covered
 - Introduction to Linked Lists
@@ -280,7 +303,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 14 (08 Jan): Stack, Queue & HashMap
+## 🗓️ Day 15 (08 Jan): Stack, Queue & HashMap
 
 ### 🔹 Concepts Covered
 - Stack (LIFO) and Queue (FIFO) concepts
@@ -299,7 +322,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 15 (09 Jan): Sorting Algorithms
+## 🗓️ Day 16 (09 Jan): Sorting Algorithms
 
 ### 🔹 Concepts Covered
 - Importance of sorting
@@ -318,7 +341,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 16 (12 Jan): Searching Algorithms & I/O Concepts
+## 🗓️ Day 17 (12 Jan): Searching Algorithms & I/O Concepts
 
 ### 🔹 Concepts Covered
 - Linear Search
@@ -337,7 +360,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 17 (13 Jan): Algorithm Runtime Analysis & Big-O Notation
+## 🗓️ Day 18 (13 Jan): Algorithm Runtime Analysis & Big-O Notation
 
 ### 🔹 Concepts Covered
 - Algorithm efficiency and performance analysis
@@ -357,7 +380,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 18 (14 Jan): Custom Data Structures & Strings 
+## 🗓️ Day 19 (14 Jan): Custom Data Structures & Strings 
 
 ### 🔹 Concepts Covered
 - Custom data storage using arrays
@@ -380,7 +403,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 19 (15 Jan): Address Book System – Advanced Operations (Custom Logic)
+## 🗓️ Day 20 (15 Jan): Address Book System – Advanced Operations (Custom Logic)
 
 ### 🔹 Concepts Covered
 - Custom search algorithms on object arrays
@@ -400,7 +423,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Strengthened fundamentals of data structures and OOPS
 ---
 
-## 🗓️ Day 20 (16 Jan): Linked List & Queue (DSA + OOPS)
+## 🗓️ Day 21 (16 Jan): Linked List & Queue (DSA + OOPS)
 
 ### 🔹 Concepts Covered
 - Circular Linked List
@@ -421,7 +444,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 21 (17 Jan): Sorting Algorithms – Bubble Sort
+## 🗓️ Day 22 (17 Jan): Sorting Algorithms – Bubble Sort
 
 ### 🔹 Concepts Covered
 - Comparison-based sorting techniques
@@ -441,7 +464,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 22 (19 Jan): Linked List, Stack & Map-Based Applications
+## 🗓️ Day 23 (19 Jan): Linked List, Stack & Map-Based Applications
 
 ### 🔹 Concepts Covered
 - Singly Linked List
@@ -467,27 +490,24 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 23 (20 Jan): Collections
+## 🗓️ Day 24 (20 Jan): Advanced Sorting & Collections Overview
 
 ### 🔹 Concepts Covered
-- Collections Framework overview:
-  - Generic, Non-Generic, Concurrent, and Specialized collections
-  - Use cases and performance considerations
-- Linked List applications
+- Advanced sorting techniques (Selection, Heap, Counting, Radix, Bucket, Merge)
+- Collections framework overview and use cases
+- Streams and exception basics
 
 ### 🔧 Hands-on Practice
-- **Aadhaar Number Sorting**
-  - Sorted 12-digit numbers
-  - Performed binary search post-sorting
+- Implemented advanced sorting algorithms
+- Applied sorting strategies to real-world datasets
 
 ### 🧠 Learning Outcome
-- Strengthened understanding of sorting strategies
-- Learned when to choose specific sorting algorithms
-- Gained clarity on collection types and real-world usage
+- Understood when and why to use specific sorting algorithms
+- Gained clarity on collections and performance considerations
 
 ---
 
-## 🗓️ Day 24 (21 Jan): Streams, Sorting & Queue-Based Systems
+## 🗓️ Day 25 (21 Jan): Streams, Sorting & Queue-Based Systems
 
 ### 🔹 Concepts Covered
 - Merge Sort for large datasets
@@ -507,7 +527,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 25 (22 Jan): Circular Linked List & Exception Handling
+## 🗓️ Day 26 (22 Jan): Circular Linked List & Exception Handling
 
 ### 🔹 Concepts Covered
 - Circular Linked List traversal and modification
