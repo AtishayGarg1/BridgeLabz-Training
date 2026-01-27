@@ -43,7 +43,29 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 3 (22 Dec): C# Operators, Access Modifiers & Practical Programming
+## 🗓️ Day 03 (20 Dec): C# Program Structure & Access Modifiers
+
+### 🔹 Concepts Covered
+- Overall structure of a C# program
+- Syntax rules and formatting
+- Data types and operators
+- Access modifiers and their real-world usage
+
+### 🔧 Hands-on Practice
+- Solved programming elements practice problems
+- Implemented logic-based programs including:
+  - Swap two numbers
+  - Chocolate distribution
+  - Perimeter of shapes
+  - Area of geometrical shapes
+
+### 🧠 Learning Outcome
+- Improved understanding of C# syntax and structure
+- Gained confidence in using operators and access modifiers
+
+---
+
+## 🗓️ Day 4 (22 Dec): C# Operators, Access Modifiers & Practical Programming
 
 ### 🔹 Concepts Covered
 - Arithmetic operations:
@@ -67,7 +89,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 4 (23 Dec): Control Flow Statements & Iterative Programming
+## 🗓️ Day 5 (23 Dec): Control Flow Statements & Iterative Programming
 
 ### 🔹 Concepts Covered
 - Decision-making statements:
@@ -87,7 +109,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 5 (24 Dec): Programming Practices, Arrays & Mathematical Utilities
+## 🗓️ Day 6 (24 Dec): Programming Practices, Arrays & Mathematical Utilities
 
 ### 🔹 Concepts Covered
 - Best programming practices in C#
@@ -107,7 +129,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 6 (26 Dec): Strings & String Manipulation
+## 🗓️ Day 7 (26 Dec): Strings & String Manipulation
 
 ### 🔹 Concepts Covered
 - Strings in C# and their immutability
@@ -141,7 +163,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 7 (29 Dec): Arrays & Structured Data Handling
+## 🗓️ Day 8 (29 Dec): Arrays & Structured Data Handling
 
 ### 🔹 Concepts Covered
 - Arrays in C# and their importance
@@ -160,7 +182,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 8 (30 Dec): Constructors, Instance vs Class Variables & Access Modifiers
+## 🗓️ Day 9 (30 Dec): Constructors, Instance vs Class Variables & Access Modifiers
 
 ### 🔹 Concepts Covered
 - Constructors:
@@ -178,7 +200,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 9 (31 Dec): Methods & Modular Programming
+## 🗓️ Day 10 (31 Dec): Methods & Modular Programming
 
 ### 🔹 Concepts Covered
 - Importance of methods in C#
@@ -210,7 +232,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 10 (01 Jan): Classes & Objects (OOP Basics)
+## 🗓️ Day 11 (01 Jan): Classes & Objects (OOP Basics)
 
 ### 🔹 Concepts Covered
 - Object-Oriented Programming fundamentals
@@ -226,7 +248,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 11 (02 Jan): Inheritance & Code Reusability
+## 🗓️ Day 12 (02 Jan): Inheritance & Code Reusability
 
 ### 🔹 Concepts Covered
 - Inheritance in C#
@@ -241,7 +263,26 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 12 (05 Jan): OOPS Best Practices, Abstraction & Polymorphism
+## 🗓️ Day 13 (03 Jan): OOPS Concepts & Inheritance
+
+### 🔹 Concepts Covered
+- Core OOPS concepts and real-world applications
+- Role and usage of access modifiers
+- Data accessibility and security in object-oriented design
+- Class hierarchies and inheritance fundamentals
+
+### 🔧 Hands-on Practice
+- Implemented Single Inheritance
+- Implemented Multilevel Inheritance
+- Used access modifiers appropriately in inheritance scenarios
+
+### 🧠 Learning Outcome
+- Strengthened understanding of inheritance and access control
+- Improved clarity in designing object-oriented class structures
+
+---
+
+## 🗓️ Day 14 (05 Jan): OOPS Best Practices, Abstraction & Polymorphism
 
 ### 🔹 Concepts Covered
 - Encapsulation using private fields and public properties
@@ -266,7 +307,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 13 (06 Jan): Arrays, Inheritance & Polymorphism
+## 🗓️ Day 15 (06 Jan): Arrays, Inheritance & Polymorphism
 
 ### 🔹 Concepts Covered
 - Array-based data storage
@@ -284,7 +325,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 14 (07 Jan): Linked List (Data Structures)
+## 🗓️ Day 16 (07 Jan): Linked List (Data Structures)
 
 ### 🔹 Concepts Covered
 - Introduction to Linked Lists
@@ -303,7 +344,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 15 (08 Jan): Stack, Queue & HashMap
+## 🗓️ Day 17 (08 Jan): Stack, Queue & HashMap
 
 ### 🔹 Concepts Covered
 - Stack (LIFO) and Queue (FIFO) concepts
@@ -322,7 +363,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 16 (09 Jan): Sorting Algorithms
+## 🗓️ Day 18 (09 Jan): Sorting Algorithms
 
 ### 🔹 Concepts Covered
 - Importance of sorting
@@ -341,7 +382,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 17 (12 Jan): Searching Algorithms & I/O Concepts
+## 🗓️ Day 19 (12 Jan): Searching Algorithms & I/O Concepts
 
 ### 🔹 Concepts Covered
 - Linear Search
@@ -360,7 +401,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 18 (13 Jan): Algorithm Runtime Analysis & Big-O Notation
+## 🗓️ Day 20 (13 Jan): Algorithm Runtime Analysis & Big-O Notation
 
 ### 🔹 Concepts Covered
 - Algorithm efficiency and performance analysis
@@ -380,7 +421,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 19 (14 Jan): Custom Data Structures & Strings 
+## 🗓️ Day 21 (14 Jan): Custom Data Structures & Strings 
 
 ### 🔹 Concepts Covered
 - Custom data storage using arrays
@@ -403,7 +444,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 20 (15 Jan): Address Book System – Advanced Operations (Custom Logic)
+## 🗓️ Day 22 (15 Jan): Address Book System – Advanced Operations (Custom Logic)
 
 ### 🔹 Concepts Covered
 - Custom search algorithms on object arrays
@@ -423,7 +464,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Strengthened fundamentals of data structures and OOPS
 ---
 
-## 🗓️ Day 21 (16 Jan): Linked List & Queue (DSA + OOPS)
+## 🗓️ Day 23 (16 Jan): Linked List & Queue (DSA + OOPS)
 
 ### 🔹 Concepts Covered
 - Circular Linked List
@@ -444,7 +485,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 22 (17 Jan): Sorting Algorithms – Bubble Sort
+## 🗓️ Day 24 (17 Jan): Sorting Algorithms – Bubble Sort
 
 ### 🔹 Concepts Covered
 - Comparison-based sorting techniques
@@ -464,7 +505,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 23 (19 Jan): Linked List, Stack & Map-Based Applications
+## 🗓️ Day 25 (19 Jan): Linked List, Stack & Map-Based Applications
 
 ### 🔹 Concepts Covered
 - Singly Linked List
@@ -490,7 +531,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 24 (20 Jan): Advanced Sorting & Collections Overview
+## 🗓️ Day 26 (20 Jan): Advanced Sorting & Collections Overview
 
 ### 🔹 Concepts Covered
 - Advanced sorting techniques (Selection, Heap, Counting, Radix, Bucket, Merge)
@@ -507,7 +548,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 25 (21 Jan): Streams, Sorting & Queue-Based Systems
+## 🗓️ Day 27 (21 Jan): Streams, Sorting & Queue-Based Systems
 
 ### 🔹 Concepts Covered
 - Merge Sort for large datasets
@@ -527,7 +568,7 @@ This repository documents my **day-wise learning journey and hands-on practice**
 
 ---
 
-## 🗓️ Day 26 (22 Jan): Circular Linked List & Exception Handling
+## 🗓️ Day 28 (22 Jan): Circular Linked List & Exception Handling
 
 ### 🔹 Concepts Covered
 - Circular Linked List traversal and modification
