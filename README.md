@@ -584,3 +584,41 @@ This repository documents my **day-wise learning journey and hands-on practice**
 ### 🧠 Learning Outcome
 - Applied exception handling to real-world scenarios
 - Strengthened reliability and error-handling skills in C#
+
+---
+
+## 🗓️ Day 29 (23 Jan): Regex & Unit Testing
+
+### 🔹 Concepts Covered
+- Regular Expressions in C#
+- Validation, extraction, and replacement
+- Unit Testing with NUnit / MSTest
+
+### 🔧 Hands-on Practice
+- Regex-based string validation and data extraction
+- Writing unit tests for logic, exceptions, file handling, and performance
+
+### 🧠 Learning Outcome
+- Strengthened string processing skills
+- Improved code correctness and test coverage
+
+---
+
+## 🗓️ Day 30 (27 Jan): Attributes & Reflection in C#
+
+### 🔹 Concepts Covered
+- Method overriding using `override`
+- Custom attributes and repeatable attributes
+- Reflection for runtime inspection and invocation
+
+### 🔧 Hands-on Practice
+- Method overriding with base and derived classes
+- Creating and applying custom attributes
+- Retrieving attribute metadata using Reflection
+- Dynamic object creation, method invocation, and field access
+- Role-based access control, caching, and custom serialization logic
+
+### 🧠 Learning Outcome
+- Gained strong understanding of metadata-driven programming
+- Learned how Reflection enables dynamic and extensible C# applications
+
