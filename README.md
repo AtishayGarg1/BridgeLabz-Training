@@ -622,3 +622,208 @@ This repository documents my **day-wise learning journey and hands-on practice**
 - Gained strong understanding of metadata-driven programming
 - Learned how Reflection enables dynamic and extensible C# applications
 
+---
+
+## 🗓️ Day 31 (28 Jan): CSV Data Handling
+
+### 🔹 Concepts Covered
+- CSV file reading & writing
+- Data mapping and validation
+- Regex-based bank validations
+
+### 🔧 Hands-on Practice
+- AeroVigil (scenario-based problem)
+- Bank Account Validation using Regex
+- CSV Data Handling Assignment
+
+### 🧠 Learning Outcome
+- Implemented structured file processing
+- Applied validations with regex and OOPS
+
+---
+
+## 🗓️ Day 32 (29 Jan): JSON & Stream Processing
+
+### 🔹 Concepts Covered
+- JSON serialization & deserialization
+- File-based JSON handling
+- Dictionary with OOPS integration
+
+### 🔧 Hands-on Practice
+- StreamBuzz (Dictionary + OOPS)
+- Ocean Fleet (scenario-based)
+- JSON Data Assignment
+
+### 🧠 Learning Outcome
+- Strengthened structured data handling
+- Improved object-to-file data mapping skills
+
+---
+
+## 🗓️ Day 33 (30 Jan): Scenario-Based Problem Solving
+
+### 🔹 Concepts Covered
+- In-depth revision of core concepts
+- Logical structuring of large problems
+
+### 🔧 Hands-on Practice
+- Lexical Twist
+- Future Logistics
+
+### 🧠 Learning Outcome
+- Improved real-world problem-solving approach
+
+---
+
+## 🗓️ Day 34 (31 Jan): Advanced Logical Refinement
+
+### 🔹 Concepts Covered
+- Concept revision
+- Code optimization practices
+
+### 🔧 Hands-on Practice
+- Extended scenario-based implementations
+
+---
+
+## 🗓️ Day 35 (02 Feb): Design Principles
+
+### 🔹 Concepts Covered
+- SOLID principles
+- Clean architecture fundamentals
+
+### 🔧 Hands-on Practice
+- Structured scenario-based problems
+- Flip Key Logical problem
+
+### 🧠 Learning Outcome
+- Improved system design thinking
+
+---
+
+## 🗓️ Day 36 (03 Feb): Design Patterns & Architecture
+
+### 🔹 Concepts Covered
+- Design principles refinement
+- Introduction to design patterns
+
+### 🔧 Hands-on Practice
+- Scenario-based architectural implementations
+
+---
+
+## 🗓️ Day 37 (04 Feb): Multithreading Fundamentals
+
+### 🔹 Concepts Covered
+- Thread creation & management
+- Basic concurrency concepts
+
+### 🔧 Hands-on Practice
+- Factory Robot Hazard Analyzer
+- Multithreading Assignment
+
+### 🧠 Learning Outcome
+- Built parallel task execution logic
+
+---
+
+## 🗓️ Day 38 (05 Feb): Synchronization & Async Programming
+
+### 🔹 Concepts Covered
+- Synchronization mechanisms
+- Async & Task-based execution
+
+### 🔧 Hands-on Practice
+- Address Book enhancement with threading
+
+---
+
+## 🗓️ Day 39 (06 Feb): RDBMS & SQL Basics
+
+### 🔹 Concepts Covered
+- Normalization
+- DDL & DML
+- Database schema design
+
+### 🔧 Hands-on Practice
+- Healthcare database design
+- SQL practice queries
+
+---
+
+## 🗓️ Day 40 (07 Feb): SQL Joins & Constraints
+
+### 🔹 Concepts Covered
+- SQL Joins
+- DQL, DCL & TCL
+- Constraints & indexing basics
+
+### 🔧 Hands-on Practice
+- SQL command implementations
+
+---
+
+## 🗓️ Day 41 (09 Feb): Advanced SQL
+
+### 🔹 Concepts Covered
+- Filtering & sorting
+- Aggregate functions
+- Subqueries & indexing
+
+---
+
+## 🗓️ Day 42 (10 Feb): Stored Procedures & Triggers
+
+### 🔹 Concepts Covered
+- Stored procedures
+- Triggers
+- Views
+
+### 🔧 Hands-on Practice
+- Healthcare database refinement
+- DBMS submission preparation
+
+---
+
+## 🗓️ Day 43 (11 Feb): Database Integration
+
+### 🔹 Concepts Covered
+- Console application database connection
+- DBMS revision
+
+### 🔧 Hands-on Practice
+- Database creation for healthcare application
+
+---
+
+## 🗓️ Day 44 (12 Feb): Project-Based Implementation
+
+### 🔹 Concepts Covered
+- Structured database design
+- Real-world system modeling
+
+### 🔧 Hands-on Practice
+- TechVille Smart City Management System
+- Healthcare schema implementation
+
+---
+
+## 🗓️ Day 45 (13 Feb): Concurrent System Design – NotifyHub
+
+### 🔹 Concepts Covered
+- Multithreading & async/await
+- Priority-based processing
+- Attribute-driven validation
+- Exception isolation in concurrency
+
+### 🔧 Hands-on Practice
+- NotifyHub – Concurrent Notification Processing System
+- Dynamic sending logic per notification type
+- Safe concurrent intake & processing
+
+### 🧠 Learning Outcome
+- Designed scalable concurrent architecture
+- Applied OOPS, collections & async programming together
+
+---
+
